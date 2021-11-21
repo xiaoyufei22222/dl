@@ -58,7 +58,7 @@
 需要安装Golang 
 
 ```sh
-$ go get -u -v github.com/JieErJingFu/proxypool
+$ go get -u -v github.com/xiaoyufei22222/proxypool
 ```
 
 运行
