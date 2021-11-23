@@ -83,7 +83,13 @@
     url: https://github.com/learnhard-cn/free_proxy_ss/blob/main/v2ray/v2raysub
 - type: webfuzzsub
   options: 
-    url: 
+    url: https://raw.githubusercontent.com/ssrsub/ssr/master/ssrsub
+- type: webfuzzsub
+  options: 
+    url: https://raw.githubusercontent.com/ssrsub/ssr/master/ss-sub
+- type: webfuzzsub
+  options: 
+    url: https://raw.githubusercontent.com/ssrsub/ssr/master/Surge.conf
 # 订阅链接-订阅地址Base64编码
 - type: subscribe
   options:
@@ -176,7 +182,7 @@
     url: https://github.com/learnhard-cn/free_proxy_ss/blob/main/clash/clash.provider.yamlhttps://cdn.jsdelivr.net/gh/alanbobs999/TopFreeProxies@master/update/provider/config-fastgit.yml
 - type: clash
   options:
-    url: 
+    url: https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml
 - type: clash
   options:
     url: 
