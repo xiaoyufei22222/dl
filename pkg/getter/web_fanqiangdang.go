@@ -2,12 +2,12 @@ package getter
 
 import (
 	"fmt"
-	"github.com/Sansui233/proxypool/log"
+	"github.com/xiaoyufei22222/proxypool-luo/log"
 	"strings"
 	"sync"
 
-	"github.com/Sansui233/proxypool/pkg/proxy"
-	"github.com/Sansui233/proxypool/pkg/tool"
+	"github.com/xiaoyufei22222/proxypool-luo/pkg/proxy"
+	"github.com/xiaoyufei22222/proxypool-luo/pkg/tool"
 	"github.com/gocolly/colly"
 )
 
