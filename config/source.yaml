@@ -86,4 +86,4 @@
 # 某个网站抓取
 - type: web-freessrxyz
   options:
-       url： http://luo.openwert.icu/
+    url: http://luo.openwert.icu/
