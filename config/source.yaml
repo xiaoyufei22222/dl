@@ -4,46 +4,7 @@
     url: https://raw.githubusercontent.com/du5/free/master/sub.list
 - type: webfuzzsub
   options:
-    url: https://proxy.yugogo.xyz/clash/proxies
-- type: webfuzzsub
-  options:
-    url: https://baiyunju.cc/7119
-- type: webfuzzsub
-  options: 
-    url: https://github.com/freefq/free
-- type: webfuzzsub
-  options: 
-    url: https://ednovas.design/clash/proxies
-- type: webfuzzsub
-  options: 
-    url: https://raw.githubusercontent.com/ssrsub/ssr/master/ss-sub
-- type: webfuzzsub
-  options: 
-    url: https://raw.githubusercontent.com/ssrsub/ssr/master/v2ray
-- type: webfuzzsub
-  options: 
-    url: https://sspool.herokuapp.com/clash/proxies
-- type: webfuzzsub
-  options: 
-    url: https://raw.githubusercontent.com/freefq/free/master/ssr
-- type: webfuzzsub
-  options: 
-    url: https://raw.githubusercontent.com/freefq/free/master/v2
-- type: webfuzzsub
-  options: 
-    url: https://ednovas.design/clash/proxies
-- type: webfuzzsub
-  options: 
-    url: https://raw.githubusercontent.com/ssrsub/ssr/master/Surge.conf
-- type: webfuzzsub
-  options: 
-    url: https://ednovas.design/clash/config
-- type: webfuzzsub
-  options: 
-    url: https://sspool.herokuapp.com/clash/config
-- type: webfuzzsub
-  options: 
-    url: https://proxy.yugogo.xyz/clash/config
+    url: http://luo.openwert.icu/
 - type: webfuzzsub
   options: 
     url: https://sub.id9.cc/sub?target=clash&url=http%3A%2F%2F121.4.209.91%3A8888%2Fdown%2FAnZWZKDstzLJ&insert=false
@@ -57,39 +18,6 @@
 - type: webfuzzsub
   options: 
     url: https://v2b.xiaoqikeji.tk/api/v1/client/subscribe?token=bf13f4b95f2f147bb346648dd20aba03
-- type: webfuzzsub
-  options: 
-    url: https://free-ss.site/
-- type: webfuzzsub
-  options: 
-    url: https://www.youneed.win/free-ss
-- type: webfuzzsub
-  options: 
-    url: https://github.com/Alvin9999/new-pac/wiki/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7
-- type: webfuzzsub
-  options: 
-    url: https://ssrtool.us/tool/free_ssr
-- type: webfuzzsub
-  options: 
-    url: https://github.com/ssrsub/ssr/raw/master/ssrsub
-- type: webfuzzsub
-  options: 
-    url: https://github.com/learnhard-cn/free_proxy_ss/blob/main/ss/sssub
-- type: webfuzzsub
-  options: 
-    url: https://github.com/learnhard-cn/free_proxy_ss/blob/main/ssr/ssrsub
-- type: webfuzzsub
-  options: 
-    url: https://github.com/learnhard-cn/free_proxy_ss/blob/main/v2ray/v2raysub
-- type: webfuzzsub
-  options: 
-    url: https://raw.githubusercontent.com/ssrsub/ssr/master/ssrsub
-- type: webfuzzsub
-  options: 
-    url: https://raw.githubusercontent.com/ssrsub/ssr/master/ss-sub
-- type: webfuzzsub
-  options: 
-    url: https://raw.githubusercontent.com/ssrsub/ssr/master/Surge.conf
 # 订阅链接-订阅地址Base64编码
 - type: subscribe
   options:
