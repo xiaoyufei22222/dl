@@ -2,14 +2,14 @@ package app
 
 import (
 	"fmt"
-	"github.com/xiaoyufei22222/proxypool/config"
-	"github.com/xiaoyufei22222/proxypool/internal/cache"
-	"github.com/xiaoyufei22222/proxypool/internal/database"
-	"github.com/xiaoyufei22222/proxypool/log"
-	"github.com/xiaoyufei22222/proxypool/pkg/geoIp"
-	"github.com/xiaoyufei22222/proxypool/pkg/healthcheck"
-	"github.com/xiaoyufei22222/proxypool/pkg/provider"
-	"github.com/xiaoyufei22222/proxypool/pkg/proxy"
+	"github.com/xiaoyufei22222/proxypool-luo/config"
+	"github.com/xiaoyufei22222/proxypool-luo/internal/cache"
+	"github.com/xiaoyufei22222/proxypool-luo/internal/database"
+	"github.com/xiaoyufei22222/proxypool-luo/log"
+	"github.com/xiaoyufei22222/proxypool-luo/pkg/geoIp"
+	"github.com/xiaoyufei22222/proxypool-luo/pkg/healthcheck"
+	"github.com/xiaoyufei22222/proxypool-luo/pkg/provider"
+	"github.com/xiaoyufei22222/proxypool-luo/pkg/proxy"
 	"sync"
 	"time"
 )
