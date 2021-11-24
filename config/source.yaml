@@ -5,7 +5,7 @@
 # 订阅链接-订阅地址Base64编码
 - type: subscribe
   options:
-    url: 
+    url: http://luo.openwert.icu/
 # 网页模糊抓取-抓取网站所有的订阅地址
 - type: webfuzz
   options:
@@ -66,7 +66,7 @@
     url: https://freefq.com/free-trojan/
 - type: webfuzz
   options:
-    url: 
+    url: http://luo.openwert.icu/
 # tg频道抓取
 - type: tgchannel
   options:
@@ -76,10 +76,14 @@
 - type: web-fanqiangdang
   options:
     url: https://fanqiangdang.com/forum-48-1.html
+- type: web-fanqiangdang
+  options:
+    url: http://luo.openwert.icu/     
 # clash格式订阅链接2
 - type: clash
   options:
-    url: 
+    url: http://luo.openwert.icu/
 # 某个网站抓取
 - type: web-freessrxyz
   options:
+       url： http://luo.openwert.icu/
