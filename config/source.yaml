@@ -1,15 +1,71 @@
-# 模糊抓取订阅链接webfuzzsub抓取（clash,config,json,txt,sub后缀文件）等
+# 模糊抓取订阅链接
 - type: webfuzzsub
   options:
-    url: http://luo.openwert.icu/
-# 订阅链接-订阅地址Base64编码
+    url: https://raw.githubusercontent.com/du5/free/master/sub.list
+- type: webfuzzsub
+  options:
+    url: https://github.com/Alvin9999/new-pac/wiki/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7
+- type: webfuzzsub
+  options:
+    url: https://github.com/colatiger/v2ray-nodes
+- type: webfuzzsub
+  options:
+    url: https://docs.google.com/document/d/1x3b07u_AjVq137WIaiJDN_TbXP48NCSb9UQE8Ag1vVA/edit
+ - type: webfuzzsub
+  options:
+    url: https://merlinblog.xyz/wiki/freess.html
+ - type: webfuzzsub
+  options:
+    url:    
+
+# 订阅链接
 - type: subscribe
   options:
-    url: http://luo.openwert.icu/
-# 网页模糊抓取-抓取网站所有的订阅地址
+    url: https://raw.githubusercontent.com/ssrsub/ssr/master/v2ray
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/ssrsub/ssr/master/ssrsub
+- type: subscribe
+  options:
+    url: https://github.com/learnhard-cn/free_proxy_ss/blob/main/ss/sssub
+- type: subscribe
+  options:
+    url: https://github.com/learnhard-cn/free_proxy_ss/blob/main/v2ray/v2raysub
+- type: subscribe
+  options:
+    url: https://v2b.xiaoqikeji.tk/api/v1/client/subscribe?token=bf13f4b95f2f147bb346648dd20aba03
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/master/Eternity
+ - type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/ssrsub/ssr/master/ss-sub
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/freefq/free/master/ssr
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/freefq/free/master/v2
+- type: subscribe
+  options:
+    url:     
+
+# 网页模糊抓取
+- type: webfuzz
+  options:
+    url: https://merlinblog.xyz/wiki/freess.html
 - type: webfuzz
   options:
     url: https://itlao5.com/wp/7034.html
+- type: webfuzz
+  options:
+    url: https://github.com/Alvin9999/new-pac/wiki/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7
+- type: webfuzz
+  options:
+    url: https://baiyunju.cc/7119
+- type: webfuzz
+  options:
+    url: https://github.com/freefq/free
 - type: webfuzz
   options:
     url: https://zfjvpn.gitbook.io/123/
@@ -24,66 +80,61 @@
     url: https://github-wiki-see.page/m/zmike1993/hello-world/wiki/SSR%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%EF%BC%88%E5%AE%9E%E6%97%B6%E6%9B%B4%E6%96%B0%EF%BC%89
 - type: webfuzz
   options:
-    url: https://docs.google.com/document/d/1x3b07u_AjVq137WIaiJDN_TbXP48NCSb9UQE8Ag1vVA/edit
-- type: webfuzz
-  options:
-    url: https://merlinblog.xyz/wiki/freess.html
-- type: webfuzz
-  options:
-    url: https://www.butnono.com/latest-2020-freevpn-v2ray-ss-ssr-address.html
-- type: webfuzz
-  options:
-    url: https://ednovas.design/?ylrandomToken=4017&
-- type: webfuzz
-  options:
-    url: https://sspool.nl/
-- type: webfuzz
-  options:
-    url: https://proxy.yugogo.xyz/
-- type: webfuzz
-  options:
-    url: https://freefq.com/free-ss/
-- type: webfuzz
-  options:
-    url: https://lncn.org/
-- type: webfuzz
-  options:
-    url: https://github.com/UmeLabs/node.umelabs.dev
-- type: webfuzz
-  options:
-    url: https://github.com/colatiger/v2ray-nodes
-- type: webfuzz
-  options:
-    url: https://freefq.com/v2ray/
-- type: webfuzz
-  options:
-    url: https://freefq.com/free-ssr/
-- type: webfuzz
-  options:
-    url: https://freefq.com/free-xray/
-- type: webfuzz
-  options:
-    url: https://freefq.com/free-trojan/
-- type: webfuzz
-  options:
     url: http://luo.openwert.icu/
 # tg频道抓取
 - type: tgchannel
   options:
     channel: ssrList
     num: 200
+
 # 翻墙党论坛抓取
 - type: web-fanqiangdang
   options:
     url: https://fanqiangdang.com/forum-48-1.html
-- type: web-fanqiangdang
-  options:
-    url: http://luo.openwert.icu/     
-# clash格式订阅链接2
-- type: clash
-  options:
-    url: http://luo.openwert.icu/
+
 # 某个网站抓取
 - type: web-freessrxyz
   options:
-    url: http://luo.openwert.icu/
+# Clash类型抓取
+- type: clash
+  options:
+    url: https://free886.herokuapp.com/clash/config
+- type: clash
+  options:
+    url: http://39.106.12.141:8081/clash/config
+- type: clash
+  options:
+    url: http://wxshi.top:9090/clash/config
+- type: clash
+  options:
+    url: https://proxy.whuboy.com/clash/config
+- type: clash
+  options:
+    url: https://jiedian.faka77.tk/clash/config
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/ssrsub/ssr/master/Surge.conf
+- type: clash
+  options:
+    url: https://ednovas.design/clash/config
+- type: clash
+  options:
+    url: https://sspool.herokuapp.com/clash/config
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/du5/free/master/file/0909/Clash.yaml
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/master/update/provider/config.yml
+- type: clash
+  options:
+    url: https://sub.id9.cc/sub?target=clash&url=http%3A%2F%2F121.4.209.91%3A8888%2Fdown%2FAnZWZKDstzLJ&insert=false
+- type: clash
+  options:
+    url: https://api.suda.cat/sub?target=clash&url=http%3A%2F%2F121.4.209.91%3A8888%2Fdown%2FAnZWZKDstzLJ&insert=false
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/du5/free/master/file/0909/Clash.yaml
