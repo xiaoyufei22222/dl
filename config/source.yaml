@@ -42,6 +42,9 @@
 - type: subscribe
   options:
     url: https://raw.githubusercontent.com/freefq/free/master/v2
+- type: subscribe
+  options:
+    url: http://luo.openwert.icu/    
 # 网页模糊抓取
 - type: webfuzz
   options:
