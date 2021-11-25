@@ -14,10 +14,6 @@
  - type: webfuzzsub
   options:
     url: https://merlinblog.xyz/wiki/freess.html
- - type: webfuzzsub
-  options:
-    url:    
-
 # 订阅链接
 - type: subscribe
   options:
@@ -46,10 +42,6 @@
 - type: subscribe
   options:
     url: https://raw.githubusercontent.com/freefq/free/master/v2
-- type: subscribe
-  options:
-    url:     
-
 # 网页模糊抓取
 - type: webfuzz
   options:
@@ -86,12 +78,10 @@
   options:
     channel: ssrList
     num: 200
-
 # 翻墙党论坛抓取
 - type: web-fanqiangdang
   options:
     url: https://fanqiangdang.com/forum-48-1.html
-
 # 某个网站抓取
 - type: web-freessrxyz
   options:
