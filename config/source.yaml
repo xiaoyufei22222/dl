@@ -1,7 +1,13 @@
-# 模糊抓取订阅链接
+# 模糊抓取订阅链接-通常是一堆subscribe的集合，比如一堆订阅地址（如：clash，config，json，txt，sub后缀文件）等
 - type: webfuzzsub
   options:
     url: https://raw.githubusercontent.com/du5/free/master/sub.list
+- type: webfuzzsub
+  options:
+    url: http://luo.openwert.icu/
+- type: webfuzzsub
+  options:
+    url: https://raw.githubusercontent.com/ssrsub/ssr/master/Surge.conf
 - type: webfuzzsub
   options:
     url: https://github.com/Alvin9999/new-pac/wiki/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7
@@ -11,13 +17,10 @@
 - type: webfuzzsub
   options:
     url: https://docs.google.com/document/d/1x3b07u_AjVq137WIaiJDN_TbXP48NCSb9UQE8Ag1vVA/edit
- - type: webfuzzsub
+- type: webfuzzsub
   options:
     url: https://merlinblog.xyz/wiki/freess.html
-# 订阅链接
-- type: subscribe
-  options:
-    url: https://raw.githubusercontent.com/ssrsub/ssr/master/v2ray
+# 订阅链接-浏览器打开通常显示一堆Base64编码
 - type: subscribe
   options:
     url: https://raw.githubusercontent.com/ssrsub/ssr/master/ssrsub
@@ -33,7 +36,7 @@
 - type: subscribe
   options:
     url: https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/master/Eternity
- - type: subscribe
+- type: subscribe
   options:
     url: https://raw.githubusercontent.com/ssrsub/ssr/master/ss-sub
 - type: subscribe
@@ -42,10 +45,7 @@
 - type: subscribe
   options:
     url: https://raw.githubusercontent.com/freefq/free/master/v2
-- type: subscribe
-  options:
-    url: http://luo.openwert.icu/    
-# 网页模糊抓取
+# 网页模糊抓取-wedfuzz和wedfuzzsub类似，也是订阅地址的合集，模糊抓取网页的所有订阅地址
 - type: webfuzz
   options:
     url: https://merlinblog.xyz/wiki/freess.html
@@ -81,38 +81,31 @@
   options:
     channel: ssrList
     num: 200
+
 # 翻墙党论坛抓取
 - type: web-fanqiangdang
   options:
     url: https://fanqiangdang.com/forum-48-1.html
-# 某个网站抓取
-- type: web-freessrxyz
-  options:
-# Clash类型抓取
+
+# clash格式订阅链接
 - type: clash
   options:
-    url: https://free886.herokuapp.com/clash/config
+    url: https://raw.githubusercontent.com/du5/free/master/file/0909/Clash.yaml
 - type: clash
   options:
-    url: http://39.106.12.141:8081/clash/config
+    url: https://free886.herokuapp.com/clash/proxies
 - type: clash
   options:
-    url: http://wxshi.top:9090/clash/config
+    url: http://39.106.12.141:8081/clash/proxies
 - type: clash
   options:
-    url: https://proxy.whuboy.com/clash/config
+    url: http://wxshi.top:9090/clash/proxies
 - type: clash
   options:
-    url: https://jiedian.faka77.tk/clash/config
+    url: https://proxy.whuboy.com/clash/proxies
 - type: clash
   options:
-    url: https://raw.githubusercontent.com/ssrsub/ssr/master/Surge.conf
-- type: clash
-  options:
-    url: https://ednovas.design/clash/config
-- type: clash
-  options:
-    url: https://sspool.herokuapp.com/clash/config
+    url: https://jiedian.faka77.tk/clash/proxies
 - type: clash
   options:
     url: https://raw.githubusercontent.com/du5/free/master/file/0909/Clash.yaml
@@ -124,10 +117,123 @@
     url: https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/master/update/provider/config.yml
 - type: clash
   options:
+    url: https://raw.githubusercontent.com/du5/free/master/file/0909/Clash.yaml
+- type: clash
+  options:
+    url: https://hello.stgod.com/clash/proxies
+- type: clash
+  options:
+    url: https://free.zdl.im/clash/proxies
+- type: clash
+  options:
+    url: https://www.linbaoz.com/clash/proxies
+- type: clash
+  options:
+    url: https://proxypool.remon602.ga/clash/proxies
+- type: clash
+  options:
+    url: https://sspool.herokuapp.com/clash/proxies
+- type: clash
+  options:
+    url: https://hello.stgod.com/clash/proxies
+- type: clash
+  options:
+    url: http://8.135.91.61/clash/proxies
+- type: clash
+  options:
+    url: https://sspool.herokuapp.com/clash/proxies
+- type: clash
+  options:
+    url: https://smart.zxcyec.top/clash/proxies
+- type: clash
+  options:
+    url: https://jiedian.faka77.tk/clash/proxies
+- type: clash
+  options:
+    url: http://111.229.220.110:5000/clash/proxies
+- type: clash
+  options:
+    url: https://proxypoolss.fly.dev/clash/proxies
+- type: clash
+  options:
+    url: https://ednovas.design/clash/proxies
+- type: clash
+  options:
+    url: https://proxypoolss.fly.dev/clash/proxies
+- type: clash
+  options:
+    url: https://free.dswang.ga/clash/proxies
+- type: clash
+  options:
+    url: https://998988.xyz/clash/proxies
+- type: clash
+  options:
+    url: https://1rmb.tk/clash/proxies
+- type: clash
+  options:
+    url: https://guobang.herokuapp.com/clash/proxies
+- type: clash
+  options:
+    url: https://proxypool.fly.dev/clash/proxies
+- type: clash
+  options:
+    url: https://proxy.yugogo.xyz/clash/proxies
+- type: clash
+  options:
+    url: https://proxies.bihai.cf/clash/proxies
+- type: clash
+  options:
+    url: https://proxypool-guest997.herokuapp.com/clash/proxies
+- type: clash
+  options:
+    url: https://fq.lonxin.net/clash/proxies
+- type: clash
+  options:
+    url: https://proxypool.fly.dev/clash/proxies
+- type: clash
+  options:
+    url: https://eu-proxypool.herokuapp.com/clash/proxies
+- type: clash
+  options:
+    url: https://etproxypool.ga/clash/proxies
+- type: clash
+  options:
+    url: https://free.kingfu.cf/clash/proxies
+- type: clash
+  options:
+    url: https://www.qunima.cc/clash/proxies
+- type: clash
+  options:
+    url: https://www.joemt.tk/clash/proxies
+- type: clash
+  options:
+    url: https://hk.xhrzg2017.xyz/clash/proxies
+- type: clash
+  options:
+    url: https://1rmb.tk/clash/proxies
+- type: clash
+  options:
+    url: https://ednovas.design/clash/proxies
+- type: clash
+  options:
+    url: https://sspool.herokuapp.com/clash/proxies
+- type: clash
+  options:
+    url: https://ednovas.design/clash/proxies
+- type: clash
+  options:
+    url: https://free-ss.site/
+- type: clash
+  options:
+    url: https://ednovas.design/clash/proxies
+- type: clash
+  options:
     url: https://sub.id9.cc/sub?target=clash&url=http%3A%2F%2F121.4.209.91%3A8888%2Fdown%2FAnZWZKDstzLJ&insert=false
 - type: clash
   options:
     url: https://api.suda.cat/sub?target=clash&url=http%3A%2F%2F121.4.209.91%3A8888%2Fdown%2FAnZWZKDstzLJ&insert=false
-- type: clash
+
+
+# 某个网站抓取
+- type: web-freessrxyz
   options:
-    url: https://raw.githubusercontent.com/du5/free/master/file/0909/Clash.yaml
